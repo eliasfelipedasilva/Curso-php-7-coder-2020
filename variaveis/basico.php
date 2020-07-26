@@ -1,34 +1,38 @@
 <div class="titulo">Variáveis</div>
+
 <?php
-$numeroA = 17;
+$numeroA = 13;
 echo $numeroA, '<br>';
-var_dump($numeroA);
+vaR_Dump($numeroA);
 
 echo '<br>';
 $a = 3;
 $b = 16;
-$soma = $a + $b;
-echo $soma;
-//$somaDosNumeros = 0;
-//algumas coisas n sao key sensitive como exemplo o EcHO ou Var_DUmP
-//funcionam assim 
-//mas as variáveis não, elas sim , são diferentes uma variael $SOMA é diferente de $soma
-echo '<br>';
-echo isset($somaDosNumeros);//assim verificar se a variavel está existindo, no caso retorna 1
-//mesmo com o valor dela sendo zero, é um valor então retorna 1, se fosse nulo retornaria zero simbolizando que nao existia variavel
+$somaDosNumeros = $a + $b;
+EcHo $somaDosNumeros;
 
-unset($somadosNumeros);
 echo '<br>';
 echo isset($somaDosNumeros);
+
+unset($somaDosNumeros);
 echo '<br>';
-echo !isset($somaDosNumeros);
-echo '<br>';
-var_dump($somaDosNumeros);//valor nulo
+var_dump($somaDosNumeros);
 
 $variavel = 10;
-echo '<br>'. $variavel;
+echo '<br>' . $variavel;
 
-$variavel = "agora sou uma string";
-echo '<br>'. $variavel;
+$variavel = "Agora sou uma string!";
+echo '<br>' . $variavel;
 
+// Nomes de variável
+$var = 'valida';
+$var2 = 'valida';
+$VAR3 = 'valida';
+$_var_4 = 'valida';
+$vâr5 = 'valida'; // evitar!
+// $6var = 'invalida';
+// $%var7 = 'invalida';
+// $var8% = 'invalida';
 
+echo '<br>';
+var_dump($_SERVER["HTTP_HOST"]);
