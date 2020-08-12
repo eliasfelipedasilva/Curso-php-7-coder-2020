@@ -26,7 +26,13 @@ if(false) {
     echo "Passo A<br>";
 } else if(false) {
     echo "Passo B<br>";
-}else {
+} else if(false) {
+    echo "Passo C<br>";
+} else if(true) {
+    echo "Passo D<br>";
+} else if(true) { //enquanto o passo D for verdadeiro ele nunca vai passar para o proximo passo
+    echo "Passo E<br>";
+} else {
     echo "Último Passo<br>";
 }
 
