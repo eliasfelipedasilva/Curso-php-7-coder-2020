@@ -11,7 +11,7 @@
 - [X] Seção 3 : Integrando PHP com HTML & CSS
 - [X] Seção 4 : Tipos Básicos Curso PHP
 - [X] Seção 5 : Variáveis
-- [ ] Seção 6 : Estruturas de Controle #01 - Em Andamento
+- [X] Seção 6 : Estruturas de Controle #01 
 - [ ] Seção 7 : Arrays - Em Andamento
 - [ ] Seção ... : ... - Em Andamento
 
