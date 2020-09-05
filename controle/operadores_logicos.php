@@ -1,6 +1,5 @@
 <div class="titulo">Operadores Lógicos</div>
 
-<<<<<<< HEAD
 <?php
 echo "<p class='divisao'>Negação Lógica</p><hr>";
 var_dump(true);
@@ -51,7 +50,6 @@ $atingiuCriterio = $criterioHomem || $criterioMulher;
 $podeSeAposentar = $pagouPrevidencia && $atingiuCriterio;
 echo "Pode se aposentar -> $podeSeAposentar.<br>";
 
-=======
 //operadores lógicos literais true ou false
 
 echo "<p class='divisao'>Negação Lógica</p><hr>";
@@ -105,19 +103,15 @@ echo "<p class='divisao'>Exemplo</p><hr>";
 $idade = 62;
 $sexo = 'M';
 
->>>>>>> e46d4dec174f53be76cdbecf420c450cd2c4d57a
+
 if($idade >= 60 && $sexo === 'F') {
     echo "Pode se aposentar -> $sexo";
 } elseif ($idade >= 65 && $sexo === 'M') {
     echo "Pode se aposentar -> $sexo";
 } else {
-<<<<<<< HEAD
+
     echo 'Vai ter que trabalhar mais um pouco...';
 }
-=======
-    echo 'Vai ter que trabalhar mais um pouco ...';
-}
-
 
 ?>
->>>>>>> e46d4dec174f53be76cdbecf420c450cd2c4d57a
+
