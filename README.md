@@ -24,12 +24,12 @@
 - [ ] Seção 16 : Formulário  - Em Andamento
 - [ ] Seção 17 : Banco de Dados  - Em Andamento
 - [ ] Seção 18 : Projeto Final : InNout  - Em Andamento
-- [X] Seção 19 : Conclusão  - Em Andamento
-- [X] Seção 20 : Extra Conteitos Web  - Em Andamento
-- [X] Seção 21 : Extra HTML  - Em Andamento
-- [X] Seção 22 : Extra CSS  - Em Andamento
+- [X] Seção 19 : Conclusão  
+- [X] Seção 20 : Extra Conteitos Web 
+- [X] Seção 21 : Extra HTML  
+- [X] Seção 22 : Extra CSS  
 - [ ] Seção 23 : Extra - Javascript  - Em Andamento
-- [X] Seção 24 : Extra - Integrando HTML, CSS E JS  - Em Andamento
+- [X] Seção 24 : Extra - Integrando HTML, CSS E JS  
 - [ ] Seção 25 : Extra Ajax  - Em Andamento
 - [ ] Seção 26 : Extra Jquery  - Em Andamento
 - [ ] Seção 27 : Extra - Banco Relacional  - Em Andamento
