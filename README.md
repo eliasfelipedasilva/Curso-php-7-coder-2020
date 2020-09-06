@@ -13,26 +13,26 @@
 - [X] Seção 5 : Variáveis
 - [X] Seção 6 : Estruturas de Controle #01 
 - [X] Seção 7 : Arrays 
-- [X] Seção 8 : Estruturas de Controle #02  - Em Andamento
-- [] Seção 9 : Funções  - Em Andamento
-- [] Seção 10 : Orientação a Objetos Curso PHP  - Em Andamento
-- [] Seção 11 : Includes  - Em Andamento
-- [] Seção 12 : Namespace  - Em Andamento
-- [] Seção 13 : Tratamento de Erro  - Em Andamento
-- [] Seção 14 : Sessão e Cookie  - Em Andamento
-- [] Seção 15 : API  - Em Andamento
-- [] Seção 16 : Formulário  - Em Andamento
-- [] Seção 17 : Banco de Dados  - Em Andamento
-- [] Seção 18 : Projeto Final : InNout  - Em Andamento
+- [ ] Seção 8 : Estruturas de Controle #02  - Em Andamento
+- [ ] Seção 9 : Funções  - Em Andamento
+- [ ] Seção 10 : Orientação a Objetos Curso PHP  - Em Andamento
+- [ ] Seção 11 : Includes  - Em Andamento
+- [ ] Seção 12 : Namespace  - Em Andamento
+- [ ] Seção 13 : Tratamento de Erro  - Em Andamento
+- [ ] Seção 14 : Sessão e Cookie  - Em Andamento
+- [ ] Seção 15 : API  - Em Andamento
+- [ ] Seção 16 : Formulário  - Em Andamento
+- [ ] Seção 17 : Banco de Dados  - Em Andamento
+- [ ] Seção 18 : Projeto Final : InNout  - Em Andamento
 - [X] Seção 19 : Conclusão  - Em Andamento
 - [X] Seção 20 : Extra Conteitos Web  - Em Andamento
 - [X] Seção 21 : Extra HTML  - Em Andamento
 - [X] Seção 22 : Extra CSS  - Em Andamento
-- [] Seção 23 : Extra - Javascript  - Em Andamento
+- [ ] Seção 23 : Extra - Javascript  - Em Andamento
 - [X] Seção 24 : Extra - Integrando HTML, CSS E JS  - Em Andamento
-- [] Seção 25 : Extra Ajax  - Em Andamento
-- [] Seção 26 : Extra Jquery  - Em Andamento
-- [] Seção 27 : Extra - Banco Relacional  - Em Andamento
+- [ ] Seção 25 : Extra Ajax  - Em Andamento
+- [ ] Seção 26 : Extra Jquery  - Em Andamento
+- [ ] Seção 27 : Extra - Banco Relacional  - Em Andamento
 
 ### imagens do projeto em andamento:
 | ![1](https://user-images.githubusercontent.com/5197047/88486063-614da300-cf51-11ea-9bbf-e3da977af861.png)| ![2](https://user-images.githubusercontent.com/5197047/88486070-6f032880-cf51-11ea-9dc1-4a290c0aa09b.png) |
