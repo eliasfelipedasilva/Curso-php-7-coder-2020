@@ -27,14 +27,7 @@ for ($i=0; $i < count($array) ; $i++) {
     echo "{$array[$i]} <br>";
 }
 
-$matrix =[
-    [
-        'a', 'e', 'i', 'o', 'u'
-    ],
-    [
-        'b', 'c', 'd'
-    ]
-];
+
 
 for ($i=0; $i < count($matrix); $i++) { 
     //  echo "{$matrix[$i]}<br>";
