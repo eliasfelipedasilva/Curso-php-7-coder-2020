@@ -37,10 +37,14 @@ for($i = 1; $i <= count($array); $i++) {
     echo "{$array[$i]} <br>";
 }
 
+<<<<<<< HEAD
 $matrix = [
     ['a', 'e', 'i', 'o', 'u'],
     ['b', 'c', 'd']
 ];
+=======
+
+>>>>>>> 608e6213827bac6fc355ba5b70621a55f647bb9c
 
 echo "<hr>";
 
