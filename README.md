@@ -13,7 +13,7 @@
 - [X] Seção 5 : Variáveis
 - [X] Seção 6 : Estruturas de Controle #01 
 - [X] Seção 7 : Arrays 
-- [ ] Seção 8 : Estruturas de Controle #02  - Em Andamento
+- [X] Seção 8 : Estruturas de Controle #02 
 - [ ] Seção 9 : Funções  - Em Andamento
 - [ ] Seção 10 : Orientação a Objetos Curso PHP  - Em Andamento
 - [ ] Seção 11 : Includes  - Em Andamento

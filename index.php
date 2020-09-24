@@ -14,7 +14,26 @@
     <main class="principal">
         <div class="conteudo">
             <nav class="modulos">
+<<<<<<< HEAD
             <div class="modulo verde-escuro">
+=======
+            <div class="modulo vermelho-escuro">
+                    <h3>7. Funções</h3>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=funcoes&file=escopo">
+                                Função & Escopo
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=funcoes&file=args_retorno">
+                                Argumentos & Retorno
+                            </a>
+                        </li>
+                    </ul>
+            </div>
+                <div class="modulo verde-escuro">
+>>>>>>> 81df0a6beb435324458782bf4d1f01b3a40a4a1f
                     <h3>6. Repetições</h3>
                     <ul>
                         <li>
@@ -70,6 +89,21 @@
                         <li>
                             <a href="exercicio.php?dir=repeticoes&file=desafio_impressao">
                                 Desafio Impressão
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=repeticoes&file=while">
+                                While / Do While
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=repeticoes&file=desafio_tabela">
+                                Desafio Tabela #01
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=repeticoes&file=desafio_tabela_2">
+                                Desafio Tabela #02
                             </a>
                         </li>
                     </ul>
