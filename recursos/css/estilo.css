@@ -10,15 +10,15 @@ body {
     grid-template-rows: 120px 1fr 60px;
     grid-template-columns: 1fr;
     grid-template-areas: 
-    "cabecalho"
-    "principal" 
-    "rodape";
+        "cabecalho"
+        "principal"
+        "rodape";
 }
 
 .cabecalho {
     grid-area: cabecalho;
     background-color: #1867c0;
-    color: #ffffff;
+    color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -43,7 +43,7 @@ body {
 .principal {
     grid-area: principal;
     height: calc(100vh - 180px);
-    background-color: #c9c9c9;
+    background-color: #f0f0f0;
     padding: 20px;
 }
 
@@ -51,27 +51,20 @@ body {
     position: relative;
     height: 100%;
     overflow-y: scroll;
-    background-color:#ffffff;
+    background-color: #fff;
     padding: 20px;
-    box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.2);
 }
 
 .rodape {
     grid-area: rodape;
-    background-color: #000;
-    color: #ffffff;
+    background-color: #fff;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     font-size: 1.2rem;
-    padding: 0px 20px;
-    
-}
-
-.rodape > h3 {
-    margin: 0px;
-    font-weight: 200;
-    font-size: 0.8rem; 
+    padding-right: 20px;
+    color: #444;
 }
 
 .modulos {
@@ -84,18 +77,15 @@ body {
     flex-basis: 32%;
     margin-bottom: 20px;
     border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
 }
+
 .modulo > h3 {
     margin: 0px;
-    color:#fff ;
-   font-weight: 300;
-   font-size: 1.5rem;
-   padding: 10px 20px;
-   background-color: #1867c0; 
+    color: #fff;
+    font-weight: 300;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    background-color: #1867c0;
 }
 
 .modulo > ul {
@@ -104,7 +94,7 @@ body {
     list-style: none;
 }
 
-.modul > ul > li {
+.modulo > ul > li {
     padding: 7px;
     font-size: 1.2rem;
     cursor: pointer;
@@ -114,46 +104,41 @@ body {
     display: flex;
     text-decoration: none;
     color: #222;
-    font-weight: 500;
-    padding: 10px;
-  
 }
 
-.modulo >ul >li:hover {
-    background-color: #eee;
-    transition: 0.5s;
-
+.modulo > ul > li:hover {
+    background-color: #EEE;
 }
 
-.modulo.verde {border:2px solid #4caf50;}
-.modulo.verde > h3 {background-color: #4caf50;}
+.modulo.verde { border: 2px solid #4CAF50; }
+.modulo.verde > h3 { background-color: #4CAF50; }
 
-.modulo.vermelho {border:2px solid #f44336;}
-.modulo.vermelho > h3 {background-color: #f44336;}
+.modulo.vermelho { border: 2px solid #F44336; }
+.modulo.vermelho > h3 { background-color: #F44336; }
 
-.modulo.azul {border:2px solid #2196f3;}
-.modulo.azul > h3 {background-color: #2196f3;}
+.modulo.azul { border: 2px solid #2196F3; }
+.modulo.azul > h3 { background-color: #2196F3; }
 
-.modulo.roxo {border:2px solid #9c27b0;}
-.modulo.roxo > h3 {background-color: #9c27b0;}
+.modulo.roxo { border: 2px solid #9C27B0; }
+.modulo.roxo > h3 { background-color: #9C27B0; }
 
-.modulo.laranja {border:2px solid #ff9800;}
-.modulo.laranja > h3 {background-color: #ff9800;}
+.modulo.laranja { border: 2px solid #FF9800; }
+.modulo.laranja > h3 { background-color: #FF9800; }
 
-.modulo.verde-escuro {border:2px solid #1b5e20;}
-.modulo.verde-escuro > h3 {background-color: #1b5e20;}
+.modulo.verde-escuro { border: 2px solid #1B5E20; }
+.modulo.verde-escuro > h3 { background-color: #1B5E20; }
 
-.modulo.vermelho-escuro {border:2px solid #b71c1c;}
-.modulo.vermelho-escuro > h3 {background-color: #b71c1c;}
+.modulo.vermelho-escuro { border: 2px solid #B71C1C; }
+.modulo.vermelho-escuro > h3 { background-color: #B71C1C; }
 
-.modulo.azul-escuro {border:2px solid #0d47a1;}
-.modulo.azul-escuro > h3 {background-color: #0d47a1;}
+.modulo.azul-escuro { border: 2px solid #0D47A1; }
+.modulo.azul-escuro > h3 { background-color: #0D47A1; }
 
-.modulo.roxo-escuro {border:2px solid #4a148c;}
-.modulo.roxo-escuro > h3 {background-color: #4a148c;}
+.modulo.roxo-escuro { border: 2px solid #4A148C; }
+.modulo.roxo-escuro > h3 { background-color: #4A148C; }
 
 p.divisao {
-    margin-bottom:0px;
+    margin-bottom: 0px;
     font-weight: bold;
 }
 

@@ -1,32 +1,26 @@
 <div class="titulo">Conversões</div>
+
 <?php
 echo is_int(PHP_INT_MAX);
 
-//INT PARA FLOAT
-
+// int para float
 echo '<br>';
 var_dump(PHP_INT_MAX + 1);
-//ASSIM VIRA UM VALOR FLOAT
 echo '<br>';
 var_dump(1 + 1.0);
-// ainda será um float, mesmo se for int
 echo '<br>';
-var_dump((float)3);
-//convertendo de forma esplícita o valor
+var_dump((float) 3);
 
-//convertendo float para int e neste cenário tem como perder informação
+// float para int
+echo '<p>Float para int</p>';
+var_dump((int) 6.8);
+echo '<br>';
+var_dump(intval(2.999));
+echo '<br>';
+var_dump((int) round(2.8));
 
-echo '<p> Float para int </p>';
-var_dump((int)2.8);
-echo '<br>';
-var_dump(intval(2.8, 10));
-echo '<br>';
-var_dump(intval('11100101010', 2));
-echo '<br>';
-var_dump((int)round(2.8));
-//operações com string
+// operações com string
 echo '<p>Strings</p>';
-
 var_dump(3 + "2");
 echo '<br>';
 var_dump("3" + 2);
@@ -34,16 +28,19 @@ echo '<br>';
 var_dump("3" . 2);
 echo '<br>', is_string("3" . 2);
 // echo '<br>', is_string("3" + 2);
+echo '<br>';
 var_dump(1 + "cinco");
 echo '<br>';
 var_dump(1 + "5 cinco");
 echo '<br>';
-var_dump(1 + "2+5");// ambiguidade vai dar problema, via ignorar esomar só 1 + 2  o 5 ele n somara pq vai achar um sinal de + antes do numero
+var_dump(1 + "cinco 5");
+echo '<br>';
+var_dump(1 + "2+5");
 echo '<br>';
 var_dump(1 + "3.2");
 echo '<br>';
-var_dump(1+ "-3.2e2");
+var_dump(1 + "-3.2e2");
 echo '<br>';
-var_dump((int)"10.5");//convertendo string para int
+var_dump((int) "10.5");
 echo '<br>';
-var_dump((float)"10.5");// convertendo string para float
+var_dump((float) "10.5");

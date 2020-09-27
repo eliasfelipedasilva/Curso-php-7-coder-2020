@@ -2,7 +2,6 @@
 
 <?php 
 $matriz = [
-<<<<<<< HEAD
     ['01', '02', '03', '04', '05'],
     ['06', '07', '08', '09', '10'],
     ['11', '12', '13', '14', '15'],
@@ -11,23 +10,10 @@ $matriz = [
 
 foreach($matriz as $linha) {
     foreach($linha as $valor) {
-=======
-    ['01', '02', '03', '04', '05',],
-    ['06', '07', '08', '09', '10',],
-    ['11', '12', '13', '14', '15',],
-    ['16', '17', '18', '19', '20',],
-];
-
-foreach ($matriz as $linha) {
-    # code...
-    foreach ($linha as $valor) {
-        # code...
->>>>>>> 81df0a6beb435324458782bf4d1f01b3a40a4a1f
         echo "$valor ";
     }
     echo "<br>";
 }
-<<<<<<< HEAD
 ?>
 
 <table>
@@ -70,64 +56,4 @@ foreach ($matriz as $linha) {
     table td {
         padding: 10px 20px;
     }
-=======
-
-?>
-
-
-<table>
-<?php 
-    foreach ($matriz as $linha) {
-        # code...
-        echo '<tr>';
-        foreach ($linha as $valor) {
-            # code...
-        echo "<td>$valor</td>";    
-        }
-     echo '</tr>';   
-    }
-?>
-
-</table>
-
-<table>
-<?php 
-    foreach ($matriz as $index => $linha) {
-        $style = $index % 2 === 1 ? 'background-color: lightblue;': '';
-        echo "<tr style='{$style}'>";
-        foreach ($linha as $valor) {
-            # code...
-            echo "<td>$valor</td>";
-        }
-      echo '</tr>';  
-    }
-?>
-
-</table>
-
-
-
-
-
-
-
-
-<style>
-
-table {
-    border: 1px solid #444;
-    border-collapse: collapse;
-    margin: 20px 0px;
-}
-
-table tr {
-    border: 1px solid #444;
-
-}
-
-table td {
-    padding: 10px 20px;
-}
-
->>>>>>> 81df0a6beb435324458782bf4d1f01b3a40a4a1f
 </style>
