@@ -1,5 +1,17 @@
 <div class="titulo">While/Do While</div>
 
+<<<<<<< HEAD
+<?php
+const VALOR_LIMITE = 5;
+$contador = 0;
+
+while($contador < VALOR_LIMITE) {
+    echo "while $contador <br>";
+    $contador++;
+}
+
+$contador = 100;
+=======
 
 <?php 
 const VALOR_LIMITE = 5;
@@ -28,11 +40,20 @@ while ($contador < VALOR_LIMITE) {
 // }while ($contador < VALOR_LIMITE);
 
 $contador = 0;
+>>>>>>> 81df0a6beb435324458782bf4d1f01b3a40a4a1f
 do {
     echo "do-while $contador <br>";
     $contador++;
 } while($contador < VALOR_LIMITE);
 
+<<<<<<< HEAD
+$contador = 0;
+while(true) {
+    echo "while(true) $contador <br>";
+    $contador++;
+    if($contador >= VALOR_LIMITE) break;
+}
+=======
 //NO DO WHILE SE O PRIMEIRO VALOR FOR FALSO , ELE AINDA ASSIM GARANTE A EXECUÇÃO DA PRIMERIA SENTENÇA EX:
 $contador = 100;
 do {
@@ -56,3 +77,4 @@ $contador = 0;
 
 
 
+>>>>>>> 81df0a6beb435324458782bf4d1f01b3a40a4a1f
