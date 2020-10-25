@@ -25,7 +25,7 @@
         </div>
     </main>
     <footer class="rodape">
-        COD3R & ALUNOS © <?= date('Y'); ?>
+        COD3R & ALUNOS ©  UCHÔA <?= date('Y'); ?>
     </footer>
 </body>
 </html>
