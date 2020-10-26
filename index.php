@@ -22,6 +22,11 @@
                                 Primeira Classe
                             </a>
                         </li>
+                        <li>
+                            <a href="exercicio.php?dir=classes_objetos&file=data">
+                                Classe Data
+                            </a>
+                        </li>
                     </ul>
                 </div>    
                 <div class="modulo vermelho-escuro">
